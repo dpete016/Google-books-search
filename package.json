@@ -1,0 +1,29 @@
+{
+  "name": "Google-books-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpete016/Google-books-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpete016/Google-books-search/issues"
+  },
+  "homepage": "https://github.com/dpete016/Google-books-search#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.5.5",
+    "nodemon": "^1.18.11"
+  }
+}
